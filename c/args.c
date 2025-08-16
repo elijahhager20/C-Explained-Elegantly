@@ -18,6 +18,8 @@ int main(int argc, char* argv[]){
         printf("%s\n", argv[i]);
     }
 
+    // Fun fact: argc and argv are optional, as you can actually name them whatever you want
+
     getchar();
     return 0;
 }
