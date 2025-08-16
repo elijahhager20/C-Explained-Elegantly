@@ -17,9 +17,7 @@ int main(int argc, char* argv[]){
     for (int i = 1; i < argc, i++;){    // i starts at 1 to avoid printing the program's name
         printf("%s\n", argv[i]);
     }
-
-    // Fun fact: argc and argv are optional, as you can actually name them whatever you want
-
+    
     getchar();
     return 0;
 }
