@@ -14,16 +14,16 @@ Each topic is a rabbit hole. I do not try to cover everything. Just the parts th
   Why your variables vanish when you blink. How malloc is both a gift and a curse.
 
 * Pointer arithmetic  
-  Memory as a flat landscape. Pointers as coordinates. Arithmetic as cartography.
+  Memory as a flat landscape. Pointers as coordinates. Arithmetic as traveling.
 
 * Type punning  
-  When you reinterpret memory like a rebellious poet. Dangerous, beautiful, and sometimes undefined.
+  When you reinterpret memory like a poet. Dangerous, beautiful, and sometimes undefined.
 
 * String manipulation (aka "char* lies")  
   C strings are not strings. They are arrays pretending to be pointers pretending to be text. And they will betray you.
 
 * Build systems and linker quirks  
-  The dark arts of compiling. Why your binary bloats. Why "undefined reference to 'sin'" is a rite of passage.
+  The dark arts of compiling. Why your binary bloats.
 
 ## Why?
 
@@ -51,4 +51,5 @@ But once you learn its language, you start to see the elegance.
 The clarity. The honesty. The way it makes you think like a machine, and then rewards you for it.
 
 This repo is my way of thinking out loud.  
+
 Of turning confusion into clarity. Of building a map through the chaos.
