@@ -7,7 +7,6 @@ int main(int argc, char* argv[]){
     // What is type punning?
     // Type punning is the act of treating an address in memory pointed to by a pointer as a different type than what it is
     // For example:
-    
     // Declare and assign an integer and a pointer towards it
     int var = 5;
     int* ptr = &var;
