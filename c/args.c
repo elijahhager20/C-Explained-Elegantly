@@ -13,7 +13,7 @@ int main(int argc, char* argv[]){
     // You can also pass in argv as a char**, because arrays decay to pointers when passed through a function call (more on that in arrays.c)
     // This also means that argv's size is unknown during runtime, which means you must use argc for bounds checking
     // As an example, lets print out all the arguments passed in:
-    if (argc < 2) return 0;             // Bounds checking
+    if (argc < 2) return 0;            // Bounds checking
     for (int i = 1; i < argc; i++){    // i starts at 1 to avoid printing the program's name
         printf("%s\n", argv[i]);
     }
